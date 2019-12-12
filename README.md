@@ -28,3 +28,5 @@ $ terraform plan -var-file=dev.tfvars
 ```bash
 $ terraform apply -var-file=dev.tfvars 
 ```
+
+
