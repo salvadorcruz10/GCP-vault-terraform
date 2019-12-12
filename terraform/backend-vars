@@ -1,0 +1,3 @@
+bucket="terraform-gcp-vault-bucket-dev"
+prefix="dev"
+credentials="../../../../my-project-879b87832458.json"

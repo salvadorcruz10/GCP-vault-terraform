@@ -7,7 +7,7 @@ Generic solution to deploy Vault on GCP
 - Existing Project, replace project name on dev.tfvars file
 - Cloud Resource Manager API Enabled
 - Existing Bucket to store tf files, replace bucket name on backend-vars file
-- JSON file (GCP credentials). To generate it, go to "APIs and Services">"Credentials">"Create credentials"
+- JSON file (GCP credentials). To generate a credentials file, on Google console go to "APIs and Services">"Credentials">"Create credentials". Put the path of this file on dev.tfvars
 
 ### Terraform version
 0.12.6
@@ -28,3 +28,5 @@ $ terraform plan -var-file=dev.tfvars
 ```bash
 $ terraform apply -var-file=dev.tfvars 
 ```
+
+
